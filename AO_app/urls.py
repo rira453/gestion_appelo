@@ -18,5 +18,12 @@ urlpatterns = [
     path('contact.html', views.contact_view, name='contact'),
     path('thank_you.html', views.contact_view, name='thank_you'),
     path('admine.html', views.admine, name='admine'),
+    path('login.html', views.user_login, name='login'),
+     
+
+    
+    
+
+    
     
 ]

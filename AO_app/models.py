@@ -1,5 +1,6 @@
 from django.db import models
 from phonenumber_field.modelfields import PhoneNumberField
+
 class ContactRequest(models.Model):
     type_of_request = models.CharField(max_length=100)
     company_name = models.CharField(max_length=100)
@@ -25,3 +26,4 @@ class TableData(models.Model):
 
     def __str__(self):
         return self.numero_ao
+    

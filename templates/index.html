@@ -11,6 +11,8 @@
 
     <!-- Favicon -->
     <link href="{% static 'img/favicon.ico' %}" rel="icon">
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -73,7 +75,12 @@
                     </div>
                    
                 </div>
+            <!--login button-->
+            <a href="{% url 'login' %}" id="login-btn">
+                <i class="ri-user-line nav--login"></i>
+            </a>
             </nav>
+
 
             <div class="container-xxl bg-info hero-header">
                 <div class="container px-lg-5">
